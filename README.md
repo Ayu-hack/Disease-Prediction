@@ -1,72 +1,136 @@
 # Disease-Prediction
+Welcome to the Disease Prediction repository! This project utilizes machine learning techniques to predict the likelihood of various diseases based on user input data, providing an accessible tool for early diagnosis and preventive healthcare.
 
-# Getting Started with React App
+# Table of Contents
 
-This project was bootstrapped with [React App](https://github.com/facebook/create-react-app).
+* Introduction
 
-## Available Scripts
+* Features
 
-In the project directory, you can run:
+* Technologies Used
 
-### `npm start`
+* Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Dataset
 
-### `npm test`
+* Model Training
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Contributing
 
-### `npm run build`
+* License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Contact
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Introduction
 
-### `npm run eject`
+The Disease Prediction project leverages machine learning algorithms to analyze user-provided health data and predict the probability of specific diseases. This can be particularly useful in areas with limited access to healthcare, offering an early indication of potential health issues.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**User-Friendly Interface**: Easy-to-use web interface for inputting health data.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Multiple Disease Prediction**: Predicts the likelihood of various diseases.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Detailed Reports**: Provides comprehensive reports of prediction results.
 
-## Learn More
+**Scalable**: Designed to be easily scalable and deployable.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Javascirpt**: Core programming language.
 
-### Code Splitting
+**Scikit-learn**: Library for machine learning.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Pandas**: Data manipulation and analysis.
 
-### Analyzing the Bundle Size
+**NumPy**: Numerical computations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**HTML/CSS**: Frontend development for the user interface.
 
-### Making a Progressive Web App
+# Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Follow these steps to set up the project locally:**
 
-### Advanced Configuration
+* **Clone the repository:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+sh
 
-### Deployment
+Copy code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+git clone https://github.com/Ayu-hack/Disease-Prediction.git
 
-### `npm run build` fails to minify
+cd Disease-Prediction
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **Create a virtual environment:**
+
+sh
+
+Copy code
+
+python3 -m venv venv
+
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+* **Install dependencies:**
+
+sh
+
+Copy code
+
+pip install -r requirements.txt
+
+* **Set up the Flask application:**
+
+sh
+
+Copy code
+
+export FLASK_APP=app.py  # On Windows use `set FLASK_APP=app.py`
+
+* **Run the application:**
+
+sh
+
+Copy code
+
+flask run
+
+# Usage
+
+Open your web browser and navigate to http://127.0.0.1:5000.
+
+Fill in the required health data in the provided form.
+
+Submit the form to receive prediction results.
+
+Review the detailed report generated by the application.
+
+# Dataset
+
+The dataset used for training the model is not included in this repository due to size and privacy constraints. You can use publicly available medical datasets or your own data to train the model. Ensure the data is properly preprocessed and cleaned before training.
+
+# Contributing
+
+**We welcome contributions! To contribute:**
+
+* Fork the repository.
+
+* Create a new branch (git checkout -b feature/YourFeature).
+
+* Commit your changes (git commit -m 'Add a new feature').
+
+* Push to the branch (git push origin feature/YourFeature).
+
+* Open a pull request.
+
+# Contact
+
+**For questions or suggestions, please contact:**
+
+Name: Ayu-hack
+Email: ayushtiwari2100@gmail.com
+
+**Thank you for visiting our repository! We hope our project aids in advancing healthcare accessibility and early disease detection.**
