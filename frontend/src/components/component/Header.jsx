@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const NavBar = () => {
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNav = () => {
@@ -115,4 +115,4 @@ const NavBar = () => {
   );
 };
 
-export {NavBar};
+export {Header};
