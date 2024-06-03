@@ -1,6 +1,6 @@
 import React from 'react';
-import {assets} from './assets/assets.js';
-const Footer = () => {
+import {assets} from '../../assets/assets';
+export const Footer = () => {
     return (
         
         <footer>
@@ -77,6 +77,4 @@ const Footer = () => {
         </footer>
       );
     };
-export {Footer};
-
 

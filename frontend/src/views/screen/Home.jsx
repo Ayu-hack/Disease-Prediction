@@ -1,11 +1,10 @@
 import React from "react";
-import { Header } from "../component/Header";
-import { Footer } from "../component/Footer";
 import "./Home.css";
+import { Header, Footer } from "../import.manage";
+import { Link } from "react-router-dom";
 
 
-
-const Home = () => {
+function Home() {
   return (
     <>
       <Header />
@@ -86,12 +85,12 @@ const Home = () => {
       <div className="cta-section">
         <h2>Ready to predict?</h2>
         <p>Sign up now and start predicting diseases to ensure a healthier future.</p>
-        <button>Sign Up</button>
+        <Link to='./Signup'><button>Signup</button></Link>
       </div>
     </div>
       <Footer />
     </>
   );
-};
+};  
 
-export default Home;
+export default Home ;
