@@ -4,25 +4,25 @@ Welcome to the Disease Prediction repository! This project aims to leverage mach
 
 # Table of Contents
 
-*Introduction
+* Introduction
 
-*Features
+* Features
 
-*Technologies Used
+* Technologies Used
 
-*Installation
+* Installation
 
-*Usage
+* Usage
 
-*Dataset
+* Dataset
 
-*Model Training
+* Model Training
 
-*Contributing
+* Contributing
 
-*License
+* License
 
-*Contact
+* Contact
 
 # Introduction
 
@@ -50,44 +50,42 @@ Scalable and easy to deploy
 
 **Clone the repository**:
 
-bash
-git clone https://github.com/Ayu-hack/Disease-Prediction.git
+```
+git clone https://github.com/Ayu-hack/Disease-Prediction.git 
 cd Disease-Prediction
+```
 
 **Install the required packages for both the backend and frontend**:
-
-bash
+```
 cd backend
 npm install
 cd ../frontend
 npm install
-
+```
 **Set up environment variables**:
-
+```
 Create a .env file in the backend directory and add the following:
 env
 MONGODB_URI=your_mongodb_connection_string
 PORT=5000
-
+```
+**Start the frontend server**:
+```
+cd frontend
+npm run dev
+```
 **Start the backend server:**
-
-bash
+```
 cd backend
 npm start
-
-**Start the frontend server**:
-
-bash
-cd frontend
-npm start
-
+```
 # Usage
-
+```
 Open your web browser and go to http://localhost:3000.
 Enter the required health data into the form.
 Submit the form to get the prediction results.
 Review the detailed report provided by the application.
-
+```
 # Dataset
 
 The dataset used for training the model is not included in the repository due to size and privacy constraints. However, you can use publicly available medical datasets or your own data to train the model. Ensure the data is preprocessed and cleaned before training.
@@ -95,15 +93,17 @@ The dataset used for training the model is not included in the repository due to
 # Model Training
 
 * **To train the model**:
+```
 Ensure your dataset is in CSV format and located in the backend/data/ directory.
 Modify the trainModel.js script to load your dataset.
-
+```
 * **Run the training script**:
+```
 bash
 cd backend
 node trainModel.js
 The trained model will be saved to the backend/models/ directory.
-
+```
 # Contributing
 
 **Contributions are welcome! Please follow these steps to contribute**:
