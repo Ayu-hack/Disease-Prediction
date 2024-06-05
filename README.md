@@ -63,10 +63,10 @@ cd ../frontend
 npm install
 ```
 **Set up environment variables**:
-```
 Create a .env file in the backend directory and add the following:
+```
 env
-MONGODB_URI=your_mongodb_connection_string
+MONGODB_URI= //your_mongodb_connection_string
 PORT=5000
 ```
 **Start the frontend server**:
@@ -99,7 +99,6 @@ Modify the trainModel.js script to load your dataset.
 ```
 * **Run the training script**:
 ```
-bash
 cd backend
 node trainModel.js
 The trained model will be saved to the backend/models/ directory.
