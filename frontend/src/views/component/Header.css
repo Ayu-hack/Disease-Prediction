@@ -1,84 +1,78 @@
-/* Basic reset */
-        * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-        }
+body, html {
+  margin: 0;
+  padding: 0;
+}
 
-        body {
-          font-family: Arial, sans-serif;
-        }
+.navbar {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-        /* Navbar styling */
-        .navbar {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          background-color: #008080 ;
-          padding: 20px 20px;
-          color: white;
-        }
+.navbar-head{
+  display: flex;
+  align-items: center;
+  gap: 30px;
 
-        .navbar-logo a {
-          color: white;
-          text-decoration: none;
-          font-size: .7rem;
-          font-weight: bold;
-        }
+}
 
-        .navbar-links ul {
-          list-style: none;
-          display: flex;
-          gap: 15px;
-        }
 
-        .navbar-links a {
-          color: white;
-          text-decoration: none;
-          padding: 5px 10px;
-          transition: background-color 0.3s;
-        }
+.logo{
+  mix-blend-mode: soft-light;
+  width: 80px;
+  height: 40px
+}
 
-        .navbar-links a:hover {
-         text-shadow: 2px 1px  10px #66b2b2;
-         font-size: 1.009rem;
-        }
 
-        
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.navbar-toggle{
+  display: none;
 
-        .navbar-cta .cta-button:hover {
-          background-color: #f39c12;
-        }
+}
 
-        /* Toggle button for mobile view */
-        .navbar-toggle {
-          display: none;
-          background: none;
-          border: none;
-          color: white;
-          font-size: 24px;
-          cursor: pointer;
-        }
+.navbar-links.show {
+  display: block;
+  
+}
 
-        @media (max-width: 768px) {
-          .navbar-toggle {
-            display: block;
-          }
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+  display: flex;
+  gap: 30px;
+}
 
-          .navbar-links ul {
-            flex-direction: column;
-            align-items: flex-start;
-            display: none;
-          }
+.navbar-links ul li a {
+  color: white;
+  text-decoration: none;
+}
 
-          .navbar-links ul.show {
-            display: flex;
-            font-family: Arial, sans-serif;
-          }
+@media (max-width: 650px) {
+  .navbar-toggle {
+    display: contents;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+  }
+  .navbar-links{
+    display: none;
+  }
 
-          .navbar {
-            flex-direction: column;
-            align-items: flex-start;
-          }
-          
-        }
+  .navbar-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    font-size: smaller;
+  }
+}
