@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { Header, Footer } from "../import.manage";
+import { Header, Footer } from "./../../import.manage";
 import { Link } from "react-router-dom";
 
 
@@ -12,7 +12,7 @@ function Home() {
       <div className="hero-section">
         <h1>Welcome to DISEPREDI </h1>
         <p>Predict diseases early and take control of your health.</p>
-        <button onSubmit="./predict"> Get Started</button>
+        <Link to='./diseases'><button> Get Started</button></Link>
       </div>
       
       <div className="features-section">

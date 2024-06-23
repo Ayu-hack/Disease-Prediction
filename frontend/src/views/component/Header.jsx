@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
-export const Header = () => {
+import { assets } from '../../assets/assets';
+export const Header = () =>{
   const [isOpen, setIsOpen] = useState(false);
   const toggleNav = () => {
     setIsOpen(!isOpen);
@@ -9,13 +10,14 @@ export const Header = () => {
   return (
       <header className="navbar">
         <div className="navbar-logo">
-          <a href="/">DISEPREDI</a>
+          <img src={assets.deps} alt="DEPS" className='logo'/>
         </div>
+        <nav className="navbar-head">
         <button className="navbar-toggle" onClick={toggleNav}>
           ☰
         </button>
-        <nav className={`navbar-links ${isOpen ? 'show' : ''}`}>
-          <ul>
+        
+          <ul className={`navbar-links ${isOpen ? 'show' : ''}`}>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/features">Features</a></li>

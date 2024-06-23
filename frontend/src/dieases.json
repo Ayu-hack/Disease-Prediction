@@ -1,0 +1,176 @@
+[
+    {
+      "id": "malaria",
+      "name": "Malaria",
+      "description": "Malaria is a mosquito-borne infectious disease of humans and other animals caused by parasitic protozoans (a group of single-celled microorganisms) belonging to the Plasmodium type. Malaria causes symptoms that typically include fever, tiredness, vomiting, and headaches. In severe cases it can cause yellow skin, seizures, coma, or death. Symptoms usually begin ten to fifteen days after being bitten by an infected mosquito. If not properly treated, people may have recurrences of the disease months later. In those who have recently survived an infection, reinfection usually causes milder symptoms. This partial resistance disappears over months to years if the person has no continuing exposure to malaria.",
+      "symptoms": ["fever", "tiredness", "vomiting", "headaches", "yellow skin", "seizures", "coma", "death"]
+    },
+    {
+      "id": "hiv",
+      "name": "HIV",
+      "description": "Human immunodeficiency virus infection and acquired immune deficiency syndrome (HIV/AIDS) is a spectrum of conditions caused by infection with the human immunodeficiency virus (HIV). Following initial infection, a person may not notice any symptoms or may experience a brief period of influenza-like illness. Typically, this is followed by a prolonged period with no symptoms. As the infection progresses, it interferes more with the immune system, increasing the risk of developing common infections such as tuberculosis, as well as other opportunistic infections, and tumors that rarely affect people who have working immune systems. These late symptoms of infection are referred to as acquired immunodeficiency syndrome (AIDS). This stage is often complicated by an infection of the lung known as Pneumocystis pneumonia, severe weight loss, skin lesions, and other infections.",
+      "symptoms": ["influenza-like illness", "common infections", "opportunistic infections", "tumors", "Pneumocystis pneumonia", "severe weight loss", "skin lesions"]
+    },
+    {
+      "id": "tuberculosis",
+      "name": "Tuberculosis",
+      "description": "Tuberculosis (TB) is an infectious disease usually caused by Mycobacterium tuberculosis (MTB) bacteria. Tuberculosis generally affects the lungs, but can also affect other parts of the body. Most infections do not have symptoms, in which case it is known as latent tuberculosis. About 10% of latent infections progress to active disease which, if left untreated, kills about half of those affected. The classic symptoms of active TB are a chronic cough with blood-containing sputum, fever, night sweats, and weight loss. The historical term 'consumption' came about due to the weight loss. Infection of other organs can cause a wide range of symptoms.",
+      "symptoms": ["chronic cough with blood-containing sputum", "fever", "night sweats", "weight loss"]
+    },
+    {
+      "id": "diabetes",
+      "name": "Diabetes",
+      "description": "Diabetes mellitus (DM), commonly referred to as diabetes, is a group of metabolic disorders in which there are high blood sugar levels over a prolonged period. Symptoms of high blood sugar include frequent urination, increased thirst, and increased hunger. If left untreated, diabetes can cause many complications. Acute complications can include diabetic ketoacidosis, hyperosmolar hyperglycemic state, or death. Serious long-term complications include cardiovascular disease, stroke, chronic kidney disease, foot ulcers, and damage to the eyes.",
+      "symptoms": ["frequent urination", "increased thirst", "increased hunger", "diabetic ketoacidosis", "hyperosmolar hyperglycemic state"]
+    },
+    {
+      "id": "cancer",
+      "name": "Cancer",
+      "description": "Cancer is a group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body. These contrast with benign tumors, which do not spread. Possible signs and symptoms include a lump, abnormal bleeding, prolonged cough, unexplained weight loss, and a change in bowel movements. While these symptoms may indicate cancer, they can also have other causes. Over 100 types of cancers affect humans.",
+      "symptoms": ["lump", "abnormal bleeding", "prolonged cough", "unexplained weight loss", "change in bowel movements"]
+    },
+    {
+      "id": "cardiovascular",
+      "name": "Cardiovascular",
+      "description": "Cardiovascular diseases (CVDs) are a class of diseases that involve the heart or blood vessels. Cardiovascular diseases are the leading cause of death globally. This is true in all areas of the world except Africa. Together they resulted in 17.9 million deaths (32.1%) in 2015. Most cardiovascular diseases can be prevented by addressing behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol using population-wide strategies.",
+      "symptoms": ["chest pain", "shortness of breath", "numbness", "weakness", "coldness in legs or arms", "pain in neck", "jaw pain", "upper back pain"]
+    },
+    {
+      "id": "respiratory",
+      "name": "Respiratory",
+      "description": "Respiratory disease is a medical term that encompasses pathological conditions affecting the organs and tissues that make gas exchange possible in higher organisms, and includes conditions of the upper respiratory tract, trachea, bronchi, bronchioles, alveoli, pleura and pleural cavity, and the nerves and muscles of breathing. Respiratory diseases range from mild and self-limiting, such as the common cold, to life-threatening entities like bacterial pneumonia, pulmonary embolism, and lung cancer.",
+      "symptoms": ["coughing", "shortness of breath", "wheezing", "chest tightness", "coughing up blood", "chronic mucus production"]
+    },
+    {
+      "id": "mental",
+      "name": "Mental",
+      "description": "Mental health is a level of psychological well-being or an absence of mental illness. It is the 'psychological state of someone who is functioning at a satisfactory level of emotional and behavioural adjustment'. From the perspective of positive psychology or holism, mental health may include an individual's ability to enjoy life, and create a balance between life activities and efforts to achieve psychological resilience.",
+      "symptoms": ["prolonged sadness", "extreme mood changes", "excessive fears", "worries", "social withdrawal", "dramatic changes in eating habits"]
+    },
+    {
+      "id": "neurological",
+      "name": "Neurological",
+      "description": "Neurological disorders are diseases of the central and peripheral nervous system. In other words, the brain, spinal cord, cranial nerves, peripheral nerves, nerve roots, autonomic nervous system, neuromuscular junction, and muscles. These disorders include epilepsy, Alzheimer disease and other dementias, cerebrovascular diseases including stroke, migraine and other headache disorders, multiple sclerosis, Parkinson's disease, neuroinfections, brain tumours, traumatic disorders of the nervous system due to head trauma, and neurological disorders as a result of malnutrition.",
+      "symptoms": ["headaches", "muscle weakness", "vision loss", "memory loss", "poor cognitive abilities"]
+    },
+    {
+      "id": "nutritional",
+      "name": "Nutritional",
+      "description": "Nutritional diseases are conditions that result from not consuming enough nutrients or not consuming the right amount of nutrients which causes health problems. Nutritional diseases can be prevented by eating a healthy diet. Nutritional diseases can also be caused by eating too much food. Eating too much food can lead to obesity which can cause health problems.",
+      "symptoms": ["weakness", "fatigue", "difficulty concentrating", "hair loss", "dry skin"]
+    },
+    {
+      "id": "neonatal",
+      "name": "Neonatal",
+      "description": "Neonatal refers to the first 28 days of life. Neonatal diseases are diseases that occur in the first 28 days of life. Neonatal diseases can be caused by genetic, environmental, and lifestyle factors. Neonatal diseases can be prevented by taking care of the mother during pregnancy and by taking care of the baby after birth.",
+      "symptoms": ["respiratory distress", "jaundice", "feeding difficulties", "seizures", "low birth weight"]
+    },
+    {
+      "id": "chickenpox",
+      "name": "Chickenpox",
+      "description": "Chickenpox is a highly contagious disease caused by the varicella-zoster virus. It causes an itchy, blister-like rash, fever, tiredness, and loss of appetite. The disease can be serious, especially in babies, adults, and people with weakened immune systems.",
+      "symptoms": ["itchy rash", "blisters", "fever", "tiredness", "loss of appetite"]
+    },
+    {
+      "id": "measles",
+      "name": "Measles",
+      "description": "Measles is a highly contagious viral disease characterized by fever, cough, runny nose, inflamed eyes, and a red, blotchy skin rash. Measles can be serious, especially for small children, and can lead to pneumonia, encephalitis, and death.",
+      "symptoms": ["fever", "cough", "runny nose", "inflamed eyes", "red blotchy skin rash"]
+    },
+    {
+      "id": "influenza",
+      "name": "Influenza",
+      "description": "Influenza, commonly known as the flu, is an infectious disease caused by influenza viruses. Symptoms include high fever, runny nose, sore throat, muscle pains, headache, coughing, and feeling tired. These symptoms typically begin two days after exposure to the virus and most last less than a week. The cough, however, may last for more than two weeks.",
+      "symptoms": ["high fever", "runny nose", "sore throat", "muscle pains", "headache", "coughing", "feeling tired"]
+    },
+    {
+      "id": "hepatitis",
+      "name": "Hepatitis",
+      "description": "Hepatitis is inflammation of the liver tissue. Some people have no symptoms whereas others develop yellow discoloration of the skin and whites of the eyes, poor appetite, vomiting, tiredness, abdominal pain, and diarrhea. Hepatitis can be self-limiting or can progress to fibrosis (scarring), cirrhosis, or liver cancer.",
+      "symptoms": ["yellow skin", "poor appetite", "vomiting", "tiredness", "abdominal pain", "diarrhea"]
+    },
+    {
+      "id": "dengue",
+      "name": "Dengue",
+      "description": "Dengue fever is a mosquito-borne tropical disease caused by the dengue virus. Symptoms typically begin three to fourteen days after infection. This may include a high fever, headache, vomiting, muscle and joint pains, and a characteristic skin rash. Recovery generally takes two to seven days. In a small proportion of cases, the disease develops into severe dengue, which can include bleeding, low levels of blood platelets, and blood plasma leakage, or into dengue shock syndrome, where dangerously low blood pressure occurs.",
+      "symptoms": ["high fever", "headache", "vomiting", "muscle pains", "joint pains", "skin rash"]
+    },
+    {
+      "id": "cholera",
+      "name": "Cholera",
+      "description": "Cholera is an infection of the small intestine by some strains of the bacterium Vibrio cholerae. Symptoms may range from none to mild to severe. The classic symptom is large amounts of watery diarrhea that lasts a few days. Vomiting and muscle cramps may also occur. Severe symptoms include dehydration and electrolyte imbalance.",
+      "symptoms": ["watery diarrhea", "vomiting", "muscle cramps", "dehydration", "electrolyte imbalance"]
+    },
+    {
+      "id": "zika",
+      "name": "Zika Virus",
+      "description": "Zika fever is caused by the Zika virus. The symptoms are similar to other viral infections such as dengue fever and include fever, red eyes, joint pain, headache, and a maculopapular rash. Symptoms are generally mild and last less than seven days. Zika can also cause birth defects when a pregnant woman is infected.",
+      "symptoms": ["fever", "red eyes", "joint pain", "headache", "rash"]
+    },
+    {
+      "id": "ebola",
+      "name": "Ebola Virus Disease",
+      "description": "Ebola virus disease (EVD) is a viral hemorrhagic fever of humans and other primates caused by ebolaviruses. Signs and symptoms typically start between two days and three weeks after contracting the virus with a fever, sore throat, muscular pain, and headaches. Vomiting, diarrhea, and rash usually follow, along with decreased function of the liver and kidneys. At this point, some people begin to bleed both internally and externally.",
+      "symptoms": ["fever", "sore throat", "muscular pain", "headaches", "vomiting", "diarrhea", "rash", "internal and external bleeding"]
+    },
+    {
+      "id": "mumps",
+      "name": "Mumps",
+      "description": "Mumps is a viral disease caused by the mumps virus. Initial signs and symptoms often include fever, muscle pain, headache, poor appetite, and feeling generally unwell. This is then usually followed by painful swelling of one or both parotid salivary glands. Symptoms typically occur 16 to 18 days after exposure and resolve after seven to ten days.",
+      "symptoms": ["fever", "muscle pain", "headache", "poor appetite", "swelling of salivary glands"]
+    },
+    {
+      "id": "rubella",
+      "name": "Rubella",
+      "description": "Rubella, also known as German measles, is an infection caused by the rubella virus. This disease is often mild with half of people not realizing that they are infected. A rash may start around two weeks after exposure and last for three days. It usually starts on the face and spreads to the rest of the body. The rash is typically red or pink. Swollen lymph nodes are common and may last a few weeks.",
+      "symptoms": ["rash", "swollen lymph nodes", "fever", "sore throat", "headache"]
+    },
+    {
+      "id": "pneumonia",
+      "name": "Pneumonia",
+      "description": "Pneumonia is an inflammatory condition of the lung affecting primarily the small air sacs known as alveoli. Symptoms typically include some combination of productive or dry cough, chest pain, fever, and trouble breathing. Severity is variable.",
+      "symptoms": ["productive or dry cough", "chest pain", "fever", "trouble breathing"]
+    },
+    {
+      "id": "bronchitis",
+      "name": "Bronchitis",
+      "description": "Bronchitis is inflammation of the bronchi in the lungs. Symptoms include coughing up mucus, wheezing, shortness of breath, and chest discomfort. Bronchitis is divided into two types: acute and chronic. Acute bronchitis is often caused by a viral infection and lasts for a few weeks. Chronic bronchitis, a type of chronic obstructive pulmonary disease (COPD), is defined by a productive cough that lasts for three months or more per year for at least two years.",
+      "symptoms": ["coughing up mucus", "wheezing", "shortness of breath", "chest discomfort"]
+    },
+    {
+      "id": "asthma",
+      "name": "Asthma",
+      "description": "Asthma is a common long-term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction, and bronchospasm. Symptoms include episodes of wheezing, coughing, chest tightness, and shortness of breath. These episodes may occur a few times a day or a few times per week. Depending on the person, they may become worse at night or with exercise.",
+      "symptoms": ["wheezing", "coughing", "chest tightness", "shortness of breath"]
+    },
+    {
+      "id": "copd",
+      "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "description": "COPD is a type of obstructive lung disease characterized by long-term breathing problems and poor airflow. The main symptoms include shortness of breath and cough with sputum production. COPD is a progressive disease, meaning it typically worsens over time. The most common cause of COPD is tobacco smoking.",
+      "symptoms": ["shortness of breath", "cough with sputum production"]
+    },
+    {
+      "id": "hay_fever",
+      "name": "Hay Fever",
+      "description": "Hay fever, also known as allergic rhinitis, is an allergic inflammation of the nasal airways. It occurs when an allergen, such as pollen, dust, or animal dander, is inhaled by an individual with a sensitized immune system. Symptoms include sneezing, runny or blocked nose, and red, itchy, and watery eyes.",
+      "symptoms": ["sneezing", "runny nose", "blocked nose", "red eyes", "itchy eyes", "watery eyes"]
+    },
+    {
+      "id": "food_poisoning",
+      "name": "Food Poisoning",
+      "description": "Food poisoning is an illness caused by eating contaminated food. It is usually not serious, and most people get better within a few days without treatment. Symptoms include nausea, vomiting, and diarrhea. The symptoms are often a result of the toxins produced by bacteria present in the contaminated food.",
+      "symptoms": ["nausea", "vomiting", "diarrhea", "stomach cramps"]
+    },
+    {
+      "id": "migraine",
+      "name": "Migraine",
+      "description": "Migraine is a neurological condition characterized by intense, debilitating headaches. Other symptoms may include nausea, vomiting, difficulty speaking, numbness or tingling, and sensitivity to light and sound. Migraines often run in families and can affect people of all ages.",
+      "symptoms": ["intense headache", "nausea", "vomiting", "difficulty speaking", "numbness", "tingling", "sensitivity to light", "sensitivity to sound"]
+    },
+    {
+      "id": "Pneumonia",
+      "name": "Pneumonia",
+      "description": "Pneumonia is an inflammatory condition of the lung affecting primarily the small air sacs known as alveoli. Symptoms typically include some combination of productive or dry cough, chest pain, fever, and trouble breathing. Severity is variable.",
+      "symptoms": ["productive or dry cough", "chest pain", "fever", "trouble breathing"]
+    }
+] 

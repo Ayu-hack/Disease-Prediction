@@ -1,0 +1,48 @@
+
+.main{
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    background-color: #f5f5f5;
+}
+
+.description{
+    padding: 30px;
+    margin: auto;
+    text-wrap: wrap;
+    font-size: 20px;
+    color: #161616;
+}
+.disease-input-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 20px;
+    color: #161616;
+    margin: 90px auto;
+}
+.image-input{
+    margin: 30px;
+}
+.image-preview{
+    width: 500px;
+    height: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+}
+
+input{
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #161616;
+    background-color: aliceblue;
+    color: #161616;
+
+}
+.diabetesPedigree{}
